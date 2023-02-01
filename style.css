@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    height: 660px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.clr-3 {
+    background-color: rgb(180, 180, 180);
+}
+
+.clr-4 {
+    background-color: rgb(255, 145, 0);
+    color: white;
+}
+
+.clr-5 {
+    background-color: rgb(72, 72, 72);
+    color: white;
+}
+
+/* tombol input */
+.input {
+    height: 480px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.input div {
+    border-radius: 70px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.input :hover {
+    opacity: 50%;
+}
+
+.input .tbl-0 {
+    justify-content: left;
+    width: 172px;
+}
+
+.input .tbl-0 p {
+    margin-left: 30px;
+}
+
+/* output */
+
+.output {
+    height: 120px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-grow: 0;
+    margin-top: 15px;
+}
+
+.output div h1 {
+    font-size: 120px;
+    font-weight: lighter;
+    margin-top: -9px;
+    color: white;
+    transition: 1s;
+}
